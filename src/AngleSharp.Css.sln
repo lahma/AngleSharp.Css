@@ -16,9 +16,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{988B2C40-782B-4128-9551-7AE65B60F903}"
 	ProjectSection(SolutionItems) = preProject
 		AngleSharp.Css.nuspec = AngleSharp.Css.nuspec
-		..\build.cake = ..\build.cake
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_build", "..\nuke\_build.csproj", "{A7AF57F0-E932-4276-A7E9-7109843AECA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
